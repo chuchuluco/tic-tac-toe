@@ -108,3 +108,8 @@ class TicTacToe
 			puts " " + closer 
 	end
 end
+
+hero = Player.new("hero")
+evil_boss = Player.new("evil boss")
+
+game = TicTacToe.new(hero, evil_boss)
